@@ -66,6 +66,9 @@ sites:
   - name: Файловое хранилище
     url: https://files.doktornarabote.ru
 
+  - name: ZZ Канарейка тест секрета
+    url: https://api.github.com/zen?k=$CANARY_TOKEN
+
 status-website:
   cname: status.doktornarabote.ru
   name: Статус платформы
