@@ -450,21 +450,21 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Боты — Max (СмартФарма)",
+    "name": "Боты — Max (Смартфарма)",
     "url": "https://botapi.max.ru/me?access_token=$MAX_SF_BOT_TOKEN",
     "icon": "https://icons.duckduckgo.com/ip3/botapi.max.ru.ico",
-    "slug": "boty-max-smart-farma",
+    "slug": "boty-max-smartfarma",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 653,
-    "timeDay": 653,
-    "timeWeek": 653,
-    "timeMonth": 653,
-    "timeYear": 653,
+    "time": 648,
+    "timeDay": 648,
+    "timeWeek": 648,
+    "timeMonth": 648,
+    "timeYear": 648,
     "dailyMinutesDown": {}
   },
   {
