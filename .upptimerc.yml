@@ -71,7 +71,7 @@ sites:
     url: https://api.telegram.org/bot$TELEGRAM_DOCTOR_BOT_TOKEN/getMe
   - name: Боты — Max (Доктор на работе)
     url: https://botapi.max.ru/me?access_token=$MAX_DOCTOR_BOT_TOKEN
-  - name: Боты — Max (СмартФарма)
+  - name: Боты — Max (Смартфарма)
     url: https://botapi.max.ru/me?access_token=$MAX_SF_BOT_TOKEN
 
   # Общие сервисы
