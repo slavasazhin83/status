@@ -1,26 +1,152 @@
-<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0,{}]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.26020937.js"}catch(e){main="/client/legacy/client.561a712d.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <title>Статус платформы</title> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
-      // In this case, light.css will be downloaded with `highest` priority.
-      if (typeof window !== "undefined" && typeof document !== "undefined" && "matchMedia" in window && window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
-        document.documentElement.style.display = 'none';
-        document.head.insertAdjacentHTML(
-          'beforeend',
-          '<link rel="stylesheet" href={`${config.path}/themes/light.css`} onload="document.documentElement.style.display = \'\'">',
-        );
-      } </script> <link href=https://status.doktornarabote.ru/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://status.doktornarabote.ru/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://status.doktornarabote.ru/global.css rel=stylesheet><link href=https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg rel=icon type=image/svg><link href=/logo-192.png rel=icon type=image/png> <link href=/client/client.26020937.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.25584de9.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.c15bef84.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"> <ul class=svelte-a08hsz><li><a href=/ aria-current=page class=svelte-a08hsz target=_self>Статус</a> </li> </ul></div> </nav> <main class=container> <header class=svelte-ngkazm><h1>Статус сервисов платформы «Доктор на работе»</h1> </header> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <div class="svelte-fqsq6s f changed"><h2>Текущий статус</h2> <form class="svelte-fqsq6s f r"><div><input class=svelte-fqsq6s id=data_day name=d type=radio value=day><label class=svelte-fqsq6s for=data_day>24ч</label></div> <div><input class=svelte-fqsq6s id=data_week name=d type=radio value=week checked><label class=svelte-fqsq6s for=data_week>7д</label></div> <div><input class=svelte-fqsq6s id=data_month name=d type=radio value=month><label class=svelte-fqsq6s for=data_month>30д</label></div> <div><input class=svelte-fqsq6s id=data_year name=d type=radio value=year><label class=svelte-fqsq6s for=data_year>1г</label></div> <div><input class=svelte-fqsq6s id=data_all name=d type=radio value=all><label class=svelte-fqsq6s for=data_all>всё</label></div></form></div> <section class="svelte-fqsq6s live-status"><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div></section></main> <footer class=svelte-jbr799><p>Исходный код <a href=https://github.com/slavasazhin83/status>открыт</a>, работает на <a href=https://upptime.js.org>Upptime</a></p> </footer></div> <script> try {
-        if (typeof window !== "undefined" && window.navigator && navigator.serviceWorker) {
-          navigator.serviceWorker.getRegistrations().then(function (registrations) {
-            for (let registration of registrations) {
-              registration.unregister();
-            }
-          });
-        }
-        if (typeof window !== "undefined" && "caches" in window) {
-          caches.keys().then(function (keyList) {
-            return Promise.all(
-              keyList.map(function (key) {
-                return caches.delete(key);
-              })
-            );
-          });
-        }
-      } catch (error) {} </script> 
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Статус платформы «Доктор на работе»</title>
+<meta name="description" content="Текущее состояние и доступность сервисов платформы «Доктор на работе»: сайты, мобильные API, авторизация, мессенджеры, приложения, боты.">
+<link rel="icon" href="/logo-192.png" type="image/png">
+<style>
+:root{
+  --bg:#f6f8fa; --card:#ffffff; --text:#1f2328; --muted:#636c76; --line:#d0d7de;
+  --up:#1a7f37; --up-bg:#dafbe1; --down:#cf222e; --down-bg:#ffebe9; --deg:#9a6700; --deg-bg:#fff8c5;
+  --accent:#0969da;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0d1117; --card:#161b22; --text:#e6edf3; --muted:#8b949e; --line:#30363d;
+    --up:#3fb950; --up-bg:#12261e; --down:#f85149; --down-bg:#2d1213; --deg:#d29922; --deg-bg:#2d2611; --accent:#4493f8; }
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:840px;margin:0 auto;padding:24px 16px 64px}
+header.top{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+header.top img{width:36px;height:36px;border-radius:8px}
+header.top h1{font-size:20px;margin:0;font-weight:600}
+.banner{border-radius:12px;padding:18px 20px;display:flex;align-items:center;gap:14px;font-size:18px;font-weight:600;margin-bottom:8px}
+.banner .icon{font-size:22px;line-height:1}
+.banner.up{background:var(--up-bg);color:var(--up)}
+.banner.down{background:var(--down-bg);color:var(--down)}
+.banner.degraded{background:var(--deg-bg);color:var(--deg)}
+.updated{color:var(--muted);font-size:13px;margin:0 2px 24px}
+.group{margin-bottom:22px}
+.group h2{font-size:15px;font-weight:600;color:var(--muted);margin:0 0 8px;padding-left:2px;text-transform:uppercase;letter-spacing:.03em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.row{display:flex;align-items:center;gap:12px;padding:13px 16px;border-top:1px solid var(--line)}
+.row:first-child{border-top:none}
+.dot{width:10px;height:10px;border-radius:50%;flex:0 0 auto}
+.dot.up{background:var(--up)}.dot.down{background:var(--down)}.dot.degraded{background:var(--deg)}
+.name{flex:1 1 auto;min-width:0}
+.name a{color:inherit;text-decoration:none;font-weight:500}
+.name a:hover{text-decoration:underline}
+.meta{color:var(--muted);font-size:12.5px;margin-top:1px}
+.state{flex:0 0 auto;font-size:13px;font-weight:600;text-align:right}
+.state.up{color:var(--up)}.state.down{color:var(--down)}.state.degraded{color:var(--deg)}
+.state .up-pct{display:block;color:var(--muted);font-weight:400;font-size:12px;margin-top:1px}
+footer{margin-top:32px;color:var(--muted);font-size:12.5px;text-align:center}
+footer a{color:var(--accent)}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:s .8s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes s{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <img src="/logo-192.png" alt="" onerror="this.style.display='none'">
+    <h1>Статус платформы «Доктор на работе»</h1>
+  </header>
+
+  <div id="banner" class="banner"><span class="spin"></span><span>Загрузка статуса…</span></div>
+  <p class="updated" id="updated"></p>
+
+  <div id="groups"></div>
+
+  <footer>
+    Состояние сервисов обновляется автоматически каждые несколько минут.<br>
+    Данные мониторинга: <a href="https://github.com/slavasazhin83/status" rel="noopener">GitHub</a>.
+  </footer>
+</div>
+
+<script>
+// Снять старый service worker и кэш Upptime, чтобы вернувшийся посетитель не видел старую страницу
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function(rs){ rs.forEach(function(r){ r.unregister(); }); }).catch(function(){});
+}
+if (window.caches) { caches.keys().then(function(ks){ ks.forEach(function(k){ caches.delete(k); }); }).catch(function(){}); }
+
+var SUMMARY = 'https://raw.githubusercontent.com/slavasazhin83/status/master/history/summary.json';
+var STATE = { up:{t:'Работает',c:'up'}, down:{t:'Не работает',c:'down'}, degraded:{t:'Перебои',c:'degraded'} };
+var ORDER = ['Доктор на работе','SmartPharma','Doctorgram','Pharmagram','Multidoc','Боты','Общие сервисы'];
+var GROUP_RU = { 'SmartPharma':'СмартФарма', 'Doctorgram':'Докторграм', 'Pharmagram':'Фармаграм', 'Multidoc':'Мультидок' };
+
+function splitName(name){
+  var p = name.split(' — ');
+  if (p.length > 1) return { group:p[0], label:p.slice(1).join(' — ') };
+  return { group:'Общие сервисы', label:name };
+}
+function pad(n){ return n<10 ? '0'+n : ''+n; }
+
+function render(data){
+  var groups = {};
+  var anyDown=false, anyDeg=false;
+  data.forEach(function(s){
+    if (s.status==='down') anyDown=true;
+    else if (s.status==='degraded') anyDeg=true;
+    var sn = splitName(s.name);
+    (groups[sn.group] = groups[sn.group] || []).push({ s:s, label:sn.label });
+  });
+
+  var banner = document.getElementById('banner');
+  if (anyDown){ banner.className='banner down'; banner.innerHTML='<span class="icon">✕</span><span>Часть сервисов недоступна</span>'; }
+  else if (anyDeg){ banner.className='banner degraded'; banner.innerHTML='<span class="icon">!</span><span>Есть перебои в работе</span>'; }
+  else { banner.className='banner up'; banner.innerHTML='<span class="icon">✓</span><span>Все сервисы работают</span>'; }
+
+  var now=new Date();
+  document.getElementById('updated').textContent =
+    'Обновлено ' + pad(now.getHours())+':'+pad(now.getMinutes()) + ' · сервисов: ' + data.length;
+
+  var names = Object.keys(groups).sort(function(a,b){
+    var ia=ORDER.indexOf(a), ib=ORDER.indexOf(b);
+    return (ia<0?99:ia) - (ib<0?99:ib);
+  });
+  var root = document.getElementById('groups');
+  root.innerHTML='';
+  names.forEach(function(gn){
+    var g = document.createElement('div'); g.className='group';
+    var h = document.createElement('h2'); h.textContent=GROUP_RU[gn]||gn; g.appendChild(h);
+    var card = document.createElement('div'); card.className='card';
+    groups[gn].forEach(function(item){
+      var s=item.s, st=STATE[s.status]||STATE.up;
+      var ms = s.time ? Math.round(s.time)+' мс' : '';
+      var linkable = s.url && s.url.indexOf('$')===-1;
+      var nameHtml = linkable
+        ? '<a href="'+s.url+'" target="_blank" rel="noopener">'+item.label+'</a>'
+        : '<span>'+item.label+'</span>';
+      var row=document.createElement('div'); row.className='row';
+      row.innerHTML =
+        '<span class="dot '+st.c+'" aria-hidden="true"></span>'+
+        '<div class="name">'+nameHtml+
+        (ms ? '<div class="meta">отклик '+ms+'</div>' : '')+'</div>'+
+        '<div class="state '+st.c+'">'+st.t+'<span class="up-pct">'+(s.uptime||'')+'</span></div>';
+      card.appendChild(row);
+    });
+    g.appendChild(card);
+    root.appendChild(g);
+  });
+}
+
+function load(){
+  fetch(SUMMARY + '?t=' + Date.now(), { cache:'no-store' })
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function(){
+      var banner=document.getElementById('banner');
+      banner.className='banner degraded';
+      banner.innerHTML='<span class="icon">…</span><span>Не удалось загрузить данные, повтор через минуту</span>';
+    });
+}
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>
