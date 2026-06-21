@@ -53,6 +53,14 @@ sites:
     url: https://apps.apple.com/ru/app/id953932867
   - name: SmartPharma — Google Play
     url: https://play.google.com/store/apps/details?id=ru.smartpharma
+  - name: Doctorgram — App Store
+    url: https://apps.apple.com/ru/app/id1474241440
+  - name: Doctorgram — Google Play
+    url: https://play.google.com/store/apps/details?id=com.doctoratwork.doctorgram
+  - name: Pharmagram — App Store
+    url: https://apps.apple.com/ru/app/id1359118828
+  - name: Pharmagram — Google Play
+    url: https://play.google.com/store/apps/details?id=com.doctoratwork.pharmagram
 
   # Общие сервисы
   - name: Файловое хранилище
@@ -62,7 +70,69 @@ status-website:
   cname: status.doktornarabote.ru
   name: Статус платформы
   introTitle: "Статус сервисов платформы «Доктор на работе»"
-  introMessage: Текущее состояние и история работы сайтов, мобильных API, авторизации и мессенджеров. Данные обновляются автоматически каждые несколько минут.
   navbar:
     - title: Статус
       href: /
+
+i18n:
+  locale: ru-RU
+  activeIncidents: Активные инциденты
+  allSystemsOperational: Все сервисы работают
+  incidentReport: "Отчёт по инциденту #$NUMBER →"
+  activeIncidentSummary: "Открыт $DATE, сообщений: $POSTS"
+  incidentTitle: Инцидент $NUMBER - подробности
+  incidentDetails: Подробности инцидента
+  incidentFixed: Устранён
+  incidentOngoing: В процессе
+  incidentOpenedAt: Открыт
+  incidentClosedAt: Закрыт
+  incidentViewOnGitHub: Открыть и подписаться на GitHub
+  incidentCommentSummary: "$DATE, автор $AUTHOR"
+  incidentBack: "← Ко всем инцидентам"
+  pastIncidents: Прошедшие инциденты
+  pastIncidentsResolved: "Устранён за $MINUTES мин, сообщений: $POSTS"
+  liveStatus: Текущий статус
+  overallUptime: "Общая доступность: $UPTIME"
+  overallUptimeTitle: Общая доступность
+  averageResponseTime: "Среднее время ответа: $TIME мс"
+  averageResponseTimeTitle: Среднее время ответа
+  sevelDayResponseTime: Время ответа за 7 дней
+  responseTimeMs: Время ответа (мс)
+  up: Работает
+  down: Не работает
+  degraded: С перебоями
+  ms: мс
+  loading: Загрузка
+  navGitHub: GitHub
+  footer: "Исходный код [открыт]($REPO), работает на [Upptime](https://upptime.js.org)"
+  rateLimitExceededTitle: Превышен лимит запросов
+  rateLimitExceededIntro: Вы превысили число запросов в час - подождите перед повторным открытием страницы. Либо добавьте персональный токен GitHub, чтобы продолжить.
+  rateLimitExceededWhatDoesErrorMean: Что означает эта ошибка?
+  rateLimitExceededErrorMeaning: Страница берёт статус в реальном времени через GitHub API. По умолчанию GitHub разрешает 60 запросов в час с одного адреса - этот лимит исчерпан.
+  rateLimitExceededErrorHowCanFix: Как это исправить?
+  rateLimitExceededErrorFix: Подождите час - лимит для вашего адреса восстановится. Либо добавьте персональный токен GitHub, он даёт ещё 5000 запросов в час.
+  rateLimitExceededGeneratePAT: Как создать персональный токен
+  rateLimitExceededHasSet: Персональный токен установлен.
+  rateLimitExceededRemoveToken: Удалить токен
+  rateLimitExceededGitHubPAT: Персональный токен GitHub
+  rateLimitExceededCopyPastePAT: Вставьте ваш токен
+  rateLimitExceededSaveToken: Сохранить токен
+  errorTitle: Произошла ошибка
+  errorIntro: Не удалось получить актуальный статус.
+  errorText: Попробуйте ещё раз через несколько секунд.
+  errorHome: На главную
+  pastScheduledMaintenance: Прошедшие плановые работы
+  scheduledMaintenance: Плановые работы
+  scheduledMaintenanceSummaryStarted: "Начались $DATE, длительность $DURATION мин"
+  scheduledMaintenanceSummaryStarts: "Начнутся $DATE, длительность $DURATION мин"
+  startedAt: Начались
+  startsAt: Начнутся
+  duration: Длительность
+  durationMin: $DURATION мин
+  incidentCompleted: Завершено
+  incidentScheduled: Запланировано
+  duration24H: 24ч
+  duration7D: 7д
+  duration30D: 30д
+  duration1Y: 1г
+  durationAll: всё
