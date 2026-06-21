@@ -466,23 +466,5 @@
     "timeMonth": 648,
     "timeYear": 648,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Файловое хранилище",
-    "url": "https://files.doktornarabote.ru",
-    "icon": "https://icons.duckduckgo.com/ip3/files.doktornarabote.ru.ico",
-    "slug": "fajlovoe-hranilishhe",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 850,
-    "timeDay": 850,
-    "timeWeek": 850,
-    "timeMonth": 850,
-    "timeYear": 850,
-    "dailyMinutesDown": {}
   }
 ]
