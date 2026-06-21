@@ -1,7 +1,0 @@
-url: https://api.github.com/zen?k=$CANARY_TOKEN
-status: up
-code: 200
-responseTime: 186
-lastUpdated: 2026-06-21T15:42:10.946Z
-startTime: 2026-06-21T15:42:10.758Z
-generator: Upptime <https://github.com/upptime/upptime>
