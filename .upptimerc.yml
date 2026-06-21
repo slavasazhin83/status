@@ -36,11 +36,27 @@ sites:
       - 200
       - 401
 
+  # Multidoc
+  - name: Multidoc — Сайт
+    url: https://www.multidok.ru/
+  - name: Multidoc — API
+    url: https://api.multidok.ru/api/v1/calculators
+
+  # Мобильные приложения (доступность в магазинах)
+  - name: Доктор на работе — App Store
+    url: https://apps.apple.com/ru/app/id581482034
+  - name: Доктор на работе — Google Play
+    url: https://play.google.com/store/apps/details?id=com.evs.doctor
+  - name: Доктор на работе — RuStore
+    url: https://apps.rustore.ru/app/com.evs.doctor
+  - name: SmartPharma — App Store
+    url: https://apps.apple.com/ru/app/id953932867
+  - name: SmartPharma — Google Play
+    url: https://play.google.com/store/apps/details?id=ru.smartpharma
+
   # Общие сервисы
   - name: Файловое хранилище
     url: https://files.doktornarabote.ru
-  - name: Академия (АНМИФО)
-    url: https://anmifo.doktornarabote.ru
 
 status-website:
   baseUrl: /status
