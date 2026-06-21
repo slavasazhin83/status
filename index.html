@@ -62,8 +62,7 @@ footer a{color:var(--accent)}
   <div id="groups"></div>
 
   <footer>
-    Состояние сервисов обновляется автоматически каждые несколько минут.<br>
-    Данные мониторинга: <a href="https://github.com/slavasazhin83/status" rel="noopener">GitHub</a>.
+    Состояние сервисов обновляется автоматически каждые несколько минут.
   </footer>
 </div>
 
@@ -77,7 +76,7 @@ if (window.caches) { caches.keys().then(function(ks){ ks.forEach(function(k){ ca
 var SUMMARY = 'https://raw.githubusercontent.com/slavasazhin83/status/master/history/summary.json';
 var STATE = { up:{t:'Работает',c:'up'}, down:{t:'Не работает',c:'down'}, degraded:{t:'Перебои',c:'degraded'} };
 var ORDER = ['Доктор на работе','SmartPharma','Doctorgram','Pharmagram','Multidoc','Боты','Общие сервисы'];
-var GROUP_RU = { 'SmartPharma':'СмартФарма', 'Doctorgram':'Докторграм', 'Pharmagram':'Фармаграм', 'Multidoc':'Мультидок' };
+var GROUP_RU = { 'SmartPharma':'Смартфарма', 'Doctorgram':'Докторграм', 'Pharmagram':'Фармаграм', 'Multidoc':'Мультидок' };
 
 function splitName(name){
   var p = name.split(' — ');
