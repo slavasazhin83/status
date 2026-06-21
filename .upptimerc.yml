@@ -74,10 +74,6 @@ sites:
   - name: Боты — Max (Смартфарма)
     url: https://botapi.max.ru/me?access_token=$MAX_SF_BOT_TOKEN
 
-  # Общие сервисы
-  - name: Файловое хранилище
-    url: https://files.doktornarabote.ru
-
 status-website:
   cname: status.doktornarabote.ru
   name: Статус платформы
