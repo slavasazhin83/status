@@ -1,7 +1,7 @@
 url: https://botapi.max.ru/me?access_token=$MAX_SF_BOT_TOKEN
 status: up
 code: 200
-responseTime: 800
-lastUpdated: 2026-06-26T00:07:17.398Z
+responseTime: 1234
+lastUpdated: 2026-06-27T00:05:09.234Z
 startTime: 2026-06-21T16:11:58.193Z
 generator: Upptime <https://github.com/upptime/upptime>
