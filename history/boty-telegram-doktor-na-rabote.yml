@@ -1,7 +1,7 @@
 url: https://api.telegram.org/bot$TELEGRAM_DOCTOR_BOT_TOKEN/getMe
 status: up
 code: 200
-responseTime: 315
-lastUpdated: 2026-06-30T00:02:17.260Z
+responseTime: 348
+lastUpdated: 2026-07-01T00:04:38.993Z
 startTime: 2026-06-21T16:04:59.703Z
 generator: Upptime <https://github.com/upptime/upptime>
