@@ -42,10 +42,6 @@ sites:
   - name: Multidoc — API
     url: https://api.multidok.ru/api/v1/calculators
 
-  # Мобильные приложения (доступность в магазинах)
-  - name: Доктор на работе — RuStore
-    url: https://apps.rustore.ru/app/com.evs.doctor
-
   # Боты (health через API с токеном в secret)
   - name: Боты — Telegram (Доктор на работе)
     url: https://api.telegram.org/bot$TELEGRAM_DOCTOR_BOT_TOKEN/getMe
