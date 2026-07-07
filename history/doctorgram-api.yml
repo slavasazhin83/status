@@ -1,7 +1,7 @@
 url: https://api.doctorgram.ru/api/v2.1/messages/unreadMessages
 status: up
 code: 401
-responseTime: 903
-lastUpdated: 2026-07-06T00:03:46.508Z
+responseTime: 519
+lastUpdated: 2026-07-07T00:06:06.268Z
 startTime: 2026-06-21T14:21:33.453Z
 generator: Upptime <https://github.com/upptime/upptime>
