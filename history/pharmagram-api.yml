@@ -1,7 +1,7 @@
 url: https://api.pharmagram.ru/api/v2.1/messages/unreadMessages
 status: up
 code: 401
-responseTime: 531
-lastUpdated: 2026-07-22T23:59:16.119Z
+responseTime: 866
+lastUpdated: 2026-07-23T23:58:06.790Z
 startTime: 2026-06-21T14:21:35.835Z
 generator: Upptime <https://github.com/upptime/upptime>
