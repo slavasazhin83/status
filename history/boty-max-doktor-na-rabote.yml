@@ -1,7 +1,7 @@
 url: https://botapi.max.ru/me?access_token=$MAX_DOCTOR_BOT_TOKEN
 status: up
 code: 200
-responseTime: 1081
-lastUpdated: 2026-08-04T23:59:53.658Z
+responseTime: 1084
+lastUpdated: 2026-08-05T23:58:23.667Z
 startTime: 2026-06-21T16:05:00.389Z
 generator: Upptime <https://github.com/upptime/upptime>
