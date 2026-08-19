@@ -42,6 +42,15 @@ sites:
   - name: Multidoc — API
     url: https://api.multidok.ru/api/v1/calculators
 
+  # Медграм
+  - name: Медграм — Сайт
+    url: https://medgram.ru/
+    expectedStatusCodes:
+      - 200
+      - 302
+  - name: Медграм — API
+    url: https://medgram.ru/lekarstva/spisok.json
+
   # Боты (health через API с токеном в secret)
   - name: Боты — Telegram (Доктор на работе)
     url: https://api.telegram.org/bot$TELEGRAM_DOCTOR_BOT_TOKEN/getMe
